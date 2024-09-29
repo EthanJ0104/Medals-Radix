@@ -6,6 +6,7 @@ import { TrashIcon } from '@radix-ui/react-icons';
 function Country(props) {
   function getMedalsTotal() {
     let sum = 0;
+    
     props.medals.forEach(medal => { sum += props.country[medal.name]; });
     return sum;
   }
