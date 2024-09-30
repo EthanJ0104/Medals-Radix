@@ -22,7 +22,7 @@ function App() {
     { id: 2, name: "silver", color: "#C0C0C0", rank: 2 },
     { id: 3, name: "bronze", color: "#CD7F32", rank: 3 },
   ]);
-  const apiEndpoint = "https://medalsapi.azurewebsites.net/api/country";
+  const apiEndpoint = "https://edj-medals-api-bfb8djdqf6bvc4gt.centralus-01.azurewebsites.net/api/country";
 
   async function handleAdd(name) {
     try {
