@@ -40,7 +40,7 @@ function App() {
   latestCountries.current = countries;
   // const apiEndpoint = "https://edj-medals-api-bfb8djdqf6bvc4gt.centralus-01.azurewebsites.net/api/country";
   const apiEndpoint = "https://medalsapi.azurewebsites.net/jwtapi/country";
-  const hubEndpoint = "https://edj-medals-api-bfb8djdqf6bvc4gt.centralus-01.azurewebsites.net/medalsHub";
+  const hubEndpoint = "https://medalsapi.azurewebsites.net/medalsHub";
   const userEndpoint = "https://jwtswagger.azurewebsites.net/api/user/login";
 
   async function handleAdd(name) {
